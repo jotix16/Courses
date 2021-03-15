@@ -1,0 +1,44 @@
+function [grad_W, grad_b] = ComputeGradients(X, Y, P, W, lambda)
+%% Computes gradients for a given minibatch based on Cross-entropy loss function
+% Input:
+%  - X:         [DxN] D is the dimensionality of each image sample 
+%               and N is the number of samples on the minibatch
+%   
+%  - Y:         [KxN] one hot representation of the label of each sample. 
+%               K is nr of possible classes.
+%
+%  - W:         [KxD] weights
+%
+%  - b:         [Kx1] bias
+%
+%  - lambda:    [double] regularization parameter
+%
+% Output:
+%  - grad_W:    [KxD] gradients for the weights
+%
+%  - grad_b:    [KxD] gradient for the bias
+%%
+% initialize gradients
+N = size(X,2);
+[K,D] = size(W);
+grad_W = zeros(K,D);
+grad_b = zeros(K,1);
+
+% gradient p for all samples in batch(gradients are columns of Grad_p)
+Grad_P = -Y.* (1./sum(Y.*P,1));
+
+% Add gradients for each sample
+for i=1:N
+    Pi= P(:,i);
+    % Calc grad for the output of the neurons before softmax for sample i
+    J = diag(Pi)-Pi*Pi';
+    grad_s = J * Grad_P(:,i);
+    
+    % Calc gradients for bias and weights
+    grad_b = grad_b + grad_s;
+    grad_W = grad_W + grad_s * X(:,i)';
+end
+grad_b = grad_b./size(X,2);
+grad_W = grad_W./size(X,2) + 2*lambda*W;
+end
+

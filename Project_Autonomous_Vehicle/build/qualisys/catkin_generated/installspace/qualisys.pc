@@ -1,0 +1,8 @@
+prefix=/home/aljanabim/ros/svea_starter/install
+
+Name: qualisys
+Description: Description of qualisys
+Version: 0.0.1
+Cflags: -I/home/aljanabim/ros/svea_starter/install/include -I/usr/include -I/usr/include/eigen3
+Libs: -L/home/aljanabim/ros/svea_starter/install/lib -lyaml-cpp
+Requires: message_runtime geometry_msgs tf

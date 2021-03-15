@@ -1,0 +1,8 @@
+prefix=/home/aljanabim/ros/svea_starter/install
+
+Name: svea_arduino
+Description: Description of svea_arduino
+Version: 0.0.0
+Cflags: -I/home/aljanabim/ros/svea_starter/install/include
+Libs: -L/home/aljanabim/ros/svea_starter/install/lib 
+Requires: std_msgs message_runtime

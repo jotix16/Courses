@@ -1,0 +1,8 @@
+prefix=/home/aljanabim/ros/svea_starter/devel
+
+Name: mouse_teleop
+Description: Description of mouse_teleop
+Version: 0.3.0
+Cflags: 
+Libs: -L/home/aljanabim/ros/svea_starter/devel/lib 
+Requires: 

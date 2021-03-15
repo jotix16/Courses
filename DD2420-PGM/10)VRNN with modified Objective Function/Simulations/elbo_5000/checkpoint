@@ -1,0 +1,6 @@
+model_checkpoint_path: "/tmp/fivo-jsb/model.ckpt-5001"
+all_model_checkpoint_paths: "/tmp/fivo-jsb/model.ckpt-1416"
+all_model_checkpoint_paths: "/tmp/fivo-jsb/model.ckpt-2610"
+all_model_checkpoint_paths: "/tmp/fivo-jsb/model.ckpt-3704"
+all_model_checkpoint_paths: "/tmp/fivo-jsb/model.ckpt-4698"
+all_model_checkpoint_paths: "/tmp/fivo-jsb/model.ckpt-5001"

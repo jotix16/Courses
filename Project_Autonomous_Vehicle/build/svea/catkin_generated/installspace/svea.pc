@@ -1,0 +1,8 @@
+prefix=/home/aljanabim/ros/svea_starter/install
+
+Name: svea
+Description: Description of svea
+Version: 0.0.0
+Cflags: -I/home/aljanabim/ros/svea_starter/install/include
+Libs: -L/home/aljanabim/ros/svea_starter/install/lib -lsvea
+Requires: roscpp rospy std_msgs message_runtime

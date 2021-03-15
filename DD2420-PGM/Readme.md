@@ -1,0 +1,11 @@
+### DD2420 Probabilistic Graphical Methods
+- [x] Lab1: Exact Inference Undirected PGM(python)
+- [x] Lab2: PGMY-Tutorial and structure learning(python)
+- [ ] Lab3: Graph Cut for image segmentation(matlab)
+- [x] Lab4: Graph SLAM(matlab)
+- [ ] Lab5: EM for table probabilities(python)
+- [ ] Lab6: POMPD(matlab) 
+- [x] Lab7: Approx Inference with Sampling-MCMCs(python)
+- [x] Lab8: Variational Inference(python)
+- [x] Lab9: Topics clustering with LDA(python)
+- [x] Lab10: VRNN with FIVO and IWAE as Objective Function

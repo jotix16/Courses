@@ -1,0 +1,9 @@
+function pixels = Lv(inpic, shape)
+    shape='same';
+    % dxmask = [1 0 -1];
+    % dymask = dxmask';
+    dxmask = [1 0 -1; 2 0 -2; 1 0 -1];
+    dymask = dxmask';
+    Lx = conv2(inpic, dxmask, shape);
+    Ly = conv2(inpic, dymask, shape);
+    pixels = Lx.^2 + Ly.^2;

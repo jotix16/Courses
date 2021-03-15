@@ -1,0 +1,8 @@
+prefix=/home/aljanabim/ros/svea_starter/install
+
+Name: svea_sensors
+Description: Description of svea_sensors
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/aljanabim/ros/svea_starter/install/lib 
+Requires: 
