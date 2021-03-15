@@ -6,6 +6,6 @@ Courses taken during uni time
 - [DD2424-Deep-Learning](DD2424-Deep-Learning)
 - [DT2119-Speech-and-Speaker-Recognition](DT2119-Speech-and-Speaker-Recognition)
 - [EL2320-Applied-Estimation](EL2320-Applied-Estimation)
-- [EL2805-Artificial Intelligence](EL2805-Artificial-Intelligence)
+- [EL2805-Artificial Intelligence](EL2805-Artificial%20Intelligence)
 - [EL2805-Reinforcement-Learning](EL2805-Reinforcement-Learning)
 - [Project_Autonomous_Vehicle](Project_Autonomous_Vehicle)
