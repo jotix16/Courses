@@ -1,6 +1,6 @@
 # Courses
-Courses taken during uni time
-- [DD2420 Probabilistic Graphical Methods](DD2420-PGM)
+Courses taken during uni at KTH Stockholm
+- [DD2420 Probabilistic Graphical Methods](DD2420-PGM) (1.0)
 - [DD2421 Machine-Learning](DD2421-Machine-Learning)
 - [DD2424 Deep-Learning](DD2424-Deep-Learning)
 - [EL2805 Artificial Intelligence](EL2805-Artificial%20Intelligence)
