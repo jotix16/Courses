@@ -1,0 +1,6 @@
+		   MFCC     MFCC+MEL     mfcc+mel+CHROMA
+4emot: validation 0.9286      87.66		88.31
+       test       0.89	      86.36		85.06
+
+8emot: validation 78.22      73.64		75
+       test       76.44	      73.86		71.34

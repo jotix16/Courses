@@ -10,3 +10,4 @@ Courses taken during uni at KTH Stockholm
 - [EL2320 Applied-Estimation](EL2320-Applied-Estimation)
 - [Project_Autonomous_Vehicle](Project_Autonomous_Vehicle)
 - [Video_Based_Human_Activity_Recognition](Video_Based_Human_Activity_Recognition)
+- [Emotion_Recognition_From_Speech](Emotion_Recognition_From_Speech)

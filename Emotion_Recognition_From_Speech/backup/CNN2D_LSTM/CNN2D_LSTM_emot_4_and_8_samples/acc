@@ -1,0 +1,13 @@
+4 emotions
+__________
+testacc : 87.12
+valaacc : 88.94
+opt: rmsprop
+
+
+8 emotions
+__________
+testacc : 79.442
+valaacc : 80.02
+opt: rmsprop
+

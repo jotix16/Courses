@@ -1,0 +1,5 @@
+testacc : 64.1
+valaacc : 63.54
+
+opt: adadelta: lr=0.1, rho(decay)=0.8
+
