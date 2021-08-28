@@ -9,3 +9,4 @@ Courses taken during uni at KTH Stockholm
 - [DD2423 Computer-Vision](DD2423-Computer-Vision)
 - [EL2320 Applied-Estimation](EL2320-Applied-Estimation)
 - [Project_Autonomous_Vehicle](Project_Autonomous_Vehicle)
+- [Video_Based_Human_Activity_Recognition](Video_Based_Human_Activity_Recognition)
